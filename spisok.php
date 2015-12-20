@@ -3,4 +3,3 @@ $txt = "<div style='display: block;'><script type='text/javascript'> </script> <
 $txt = str_replace("&nbsp;","<br>",strip_tags($txt));
 print_r(str_replace("<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>","<br>",$txt));
 ?>
-//11111
