@@ -7,7 +7,7 @@ $now = date("Y-m-d H:i:s");
 
 //$opt_id = "333";//+2
 //$opt_val_id = "347";//+7
-
+//oleg branch
 $file = file_get_contents('db.txt', true);
 $file = explode("|", $file);
 $product_id = $file[0] + 1;
